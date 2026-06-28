@@ -149,7 +149,7 @@ function ChartTooltipContent({
 
 		if (labelFormatter) {
 			return (
-				<div className={cn('font-medium text-black', labelClassName)}>
+				<div className={cn('font-medium text-black capitalize', labelClassName)}>
 					{labelFormatter(value, payload)}
 				</div>
 			);

@@ -345,7 +345,7 @@ export default function WeatherForecast() {
 									tickMargin={8}
 									interval={0}
 									minTickGap={32}
-									tickFormatter={(value) => format(new Date(value), 'EEEE')}
+									tickFormatter={(value) => format(new Date(value), 'E')}
 									tick={{ fill: 'white' }}
 									padding={{ left: 20, right: 20 }}
 								/>
