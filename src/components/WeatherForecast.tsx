@@ -153,7 +153,7 @@ export default function WeatherForecast() {
 						{!city.id ? (
 							<Skeleton className={cn('h-4')} />
 						) : (
-							<h1 className={cn('text-xs')}>{city.name}</h1>
+							<h1 className={cn('text-xs leading-snug')}>{city.name}</h1>
 						)}
 					</DialogTrigger>
 					<DialogContent
