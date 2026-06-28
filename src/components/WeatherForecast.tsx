@@ -29,14 +29,7 @@ import ky from 'ky';
 import { Check } from 'lucide-react';
 import { format, setDefaultOptions } from 'date-fns';
 import { hu } from 'date-fns/locale';
-import {
-	ChartContainer,
-	ChartLegend,
-	ChartLegendContent,
-	ChartTooltip,
-	ChartTooltipContent,
-	type ChartConfig,
-} from './ui/chart';
+import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from './ui/chart';
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from 'recharts';
 
 setDefaultOptions({ locale: hu });
