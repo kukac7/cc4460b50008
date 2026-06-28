@@ -296,7 +296,11 @@ export default function WeatherForecast() {
 									<p className={cn('col-start-1 capitalize')}>
 										{format(new Date(item), 'EEEE')}
 									</p>
-									<p className={cn('col-start-2 flex items-center gap-2')}>
+									<p
+										className={cn(
+											'col-start-2 flex items-center justify-center gap-2'
+										)}
+									>
 										<img
 											src={`https://cdn.meteocons.com/3.0.0-next.10/svg-static/monochrome/${weatherMap[weather.daily.weather_code[index]]?.icon}.svg`}
 											alt=""
