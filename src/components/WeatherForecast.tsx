@@ -369,7 +369,6 @@ export default function WeatherForecast() {
 									stroke="var(--color-max)"
 									stackId="a"
 								/>
-								<ChartLegend content={<ChartLegendContent />} />
 							</AreaChart>
 						</ChartContainer>
 					)}
